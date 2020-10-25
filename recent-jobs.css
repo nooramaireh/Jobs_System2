@@ -1,0 +1,46 @@
+body {
+    background-color: #007bff !important;
+
+}
+.job-navbar {
+    background-color: white;
+    opacity: 0.65;
+}
+.job-navbar:hover {
+    opacity: 1;
+    transition: 0.8s ease;
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid #007bff;
+}
+
+.nav-item a.active {
+    border-bottom: 3px solid #007bff;
+}
+.jobs-table{
+    background-color: white;
+    opacity: 0.9;
+}
+.job-row:hover{
+  background:#f5f5f5;
+  cursor: pointer;
+}
+
+.table td {
+    text-align: center;   
+ }
+ .table th {
+    text-align: center;   
+ }
+ .search-table{
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+ }
+ .search-table td{
+    text-align: center;  
+ }
+.search-table thead{
+    background: #f5f5f5;
+}
